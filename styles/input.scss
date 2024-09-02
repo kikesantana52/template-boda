@@ -1,0 +1,136 @@
+@import "./fonts.scss";
+body * {
+  font-family: "Cinzel Decorative";
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Cinzel decorative";
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 10px;
+
+  letter-spacing: 2px;
+}
+
+#home {
+  height: 100vh;
+  background: url("../assets/img/6.jpg") center center / cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+
+  h1 {
+    color: #fff;
+    font-family: "Cinzel Decorative";
+    font-size: 59px;
+    letter-spacing: -0.4px;
+  }
+  h2 {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}
+
+#contador {
+  p {
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  small {
+    font-family: "Cormorant Garamond";
+  }
+}
+
+.separator {
+  img {
+    border-radius: 800px 20px;
+  }
+}
+
+#fechaLugar {
+  p {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 16px;
+  }
+  a {
+    background-color: #f7e7ce;
+    color: #ada394;
+  }
+  h2 {
+    font-family: "Cormorant Garamond", sans-serif;
+    color: #ada394;
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+
+#galeria {
+  img {
+    padding: 10px;
+    width: 100%;
+  }
+}
+.wed-card {
+  img {
+    width: 20%;
+  }
+  color: #ada394;
+  border: 1px solid #f7e7ce;
+  height: 100%;
+  border-radius: 25px 15px;
+  -webkit-box-shadow: 10px 10px 26px -15px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 10px 10px 26px -15px rgba(0, 0, 0, 0.56);
+  box-shadow: 10px 10px 26px -15px rgba(0, 0, 0, 0.56);
+}
+
+#mesaRegalos {
+  p {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 16px;
+  }
+  a {
+    background-color: #f7e7ce;
+    color: #ada394;
+  }
+  h2 {
+    font-family: "Cormorant Garamond", sans-serif;
+    color: #ada394;
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#confirmacion {
+  background: url("../assets/img/background_y.jpg") center center / cover
+    no-repeat;
+  * {
+    font-family: "Cormorant Garamond" !important;
+  }
+}
+.form {
+  .btn {
+    background-color: #f7e7ce !important;
+    color: #ada394;
+    border: none;
+    font-size: 1.2rem;
+  }
+  text-align: left;
+}

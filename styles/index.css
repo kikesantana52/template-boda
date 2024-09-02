@@ -1,0 +1,263 @@
+@font-face {
+  font-family: "Cinzel decorative";
+  src: url("../assets/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cinzel decorative Bold";
+  src: url("../assets/fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cinzel decorative Black";
+  src: url("../assets/fonts/Cinzel_Decorative/CinzelDecorative-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato thin";
+  src: url("../assets/fonts/Lato/Lato-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato light";
+  src: url("../assets/fonts/Lato/Lato-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato/Lato-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato/Lato-Regular.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato bold";
+  src: url("../assets/fonts/Lato/Lato-Bold.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato black";
+  src: url("../assets/fonts/Lato/Lato-Black.ttf");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato thin italic";
+  src: url("../assets/fonts/Lato/Lato-ThinItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato light italic";
+  src: url("../assets/fonts/Lato/Lato-LightItalic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato bold italic";
+  src: url("../assets/fonts/Lato/Lato-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato black italic";
+  src: url("../assets/fonts/Lato/Lato-BlackItalic.ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cormorant Garamond Light";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cormorant Garamond Medium";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cormorant Garamond Semibold";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cormorant Garamond Bold";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cormorant Garamond ligth italic";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cormorant Garamond italic";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-Regular.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cormorant Garamond medium italic";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cormorant Garamond semibold italic";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cormorant Garamond bold italic";
+  src: url("../assets/fonts/Cormorant/CormorantGaramond-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+body * {
+  font-family: "Cinzel Decorative";
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Cinzel decorative";
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+#home {
+  height: 100vh;
+  background: url("../assets/img/6.jpg") center center/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+#home h1 {
+  color: #fff;
+  font-family: "Cinzel Decorative";
+  font-size: 59px;
+  letter-spacing: -0.4px;
+}
+#home h2 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#contador p {
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+#contador small {
+  font-family: "Cormorant Garamond";
+}
+
+.separator img {
+  border-radius: 800px 20px;
+}
+
+#fechaLugar p {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 16px;
+}
+#fechaLugar a {
+  background-color: #f7e7ce;
+  color: #ada394;
+}
+#fechaLugar h2 {
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #ada394;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#galeria img {
+  padding: 10px;
+  width: 100%;
+}
+
+.wed-card {
+  color: #ada394;
+  border: 1px solid #f7e7ce;
+  height: 100%;
+  border-radius: 25px 15px;
+  -webkit-box-shadow: 10px 10px 26px -15px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 10px 10px 26px -15px rgba(0, 0, 0, 0.56);
+  box-shadow: 10px 10px 26px -15px rgba(0, 0, 0, 0.56);
+}
+.wed-card img {
+  width: 20%;
+}
+
+#mesaRegalos p {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 16px;
+}
+#mesaRegalos a {
+  background-color: #f7e7ce;
+  color: #ada394;
+}
+#mesaRegalos h2 {
+  font-family: "Cormorant Garamond", sans-serif;
+  color: #ada394;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#confirmacion {
+  background: url("../assets/img/background_y.jpg") center center/cover no-repeat;
+}
+#confirmacion * {
+  font-family: "Cormorant Garamond" !important;
+}
+
+.form {
+  text-align: left;
+}
+.form .btn {
+  background-color: #f7e7ce !important;
+  color: #ada394;
+  border: none;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=index.css.map */
