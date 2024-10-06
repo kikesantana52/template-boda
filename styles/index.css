@@ -153,13 +153,13 @@ h2 {
 
 @supports (-webkit-touch-callout: none) {
   #home {
-    background: url("../assets/img/6.jpg") center top no-repeat scroll;
+    background: url("../assets/img/5.jpg") center top no-repeat scroll;
     background-size: auto 100vh;
   }
 }
 #home {
   height: 100vh;
-  background: url("../assets/img/6.jpg") center center/cover no-repeat fixed;
+  background: url("../assets/img/5.jpg") center center/cover no-repeat fixed;
   display: flex;
   justify-content: center;
   align-items: center;
