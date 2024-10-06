@@ -151,15 +151,9 @@ h2 {
   letter-spacing: 2px;
 }
 
-@supports (-webkit-touch-callout: none) {
-  #home {
-    background: url("../assets/img/5.jpg") center top no-repeat scroll;
-    background-size: auto 100vh;
-  }
-}
 #home {
   height: 100vh;
-  background: url("../assets/img/5.jpg") center center/cover no-repeat fixed;
+  background: url("../assets/img/6.jpg") center center/cover no-repeat fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,6 +173,11 @@ h2 {
   letter-spacing: 1px;
 }
 
+@supports (-webkit-touch-callout: none) {
+  #home {
+    background-attachment: scroll; /* Forzar scroll para iOS */
+  }
+}
 #contador p {
   letter-spacing: 5px;
   font-size: 20px;
